@@ -24,6 +24,7 @@ declare module "@material-tailwind/react" {
   interface TextareaProps {
     onPointerEnterCapture?;
     onPointerLeaveCapture?;
+    placeholder?;
   }
 
   interface MenuItemProps {
@@ -60,6 +61,25 @@ declare module "@material-tailwind/react" {
     onPointerEnterCapture?;
     onPointerLeaveCapture?;
     crossOrigin?;
+  }
+
+  interface TypographyProps {
+    onPointerEnterCapture?;
+    onPointerLeaveCapture?;
+    crossOrigin?;
+  }
+
+  interface NavbarProps {
+    onPointerEnterCapture?;
+    onPointerLeaveCapture?;
+    crossOrigin?;
+  }
+
+  interface IconButtonProps {
+    onPointerEnterCapture?;
+    onPointerLeaveCapture?;
+    crossOrigin?;
+    placeholder?;
   }
 
   interface TabsHeaderProps extends ButtonProps {}
